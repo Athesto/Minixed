@@ -43,6 +43,7 @@
 			case      'desc': exit(base64_decode('iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAYAAADEUlfTAAAAF0lEQVQImWNgoBb4j0/iPzYF/7FgCgAADegI+OMeBfsAAAAASUVORK5CYII='));
 			case 'directory': exit(base64_decode('iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAASklEQVQYlYWPwQ3AMAgDb3Tv5AHdR5OqTaBB8gM4bAGApACPRr/XuujA+vqVcAI3swDYjqRSH7B9oHI8grbTgWN+g3+xq0k6TegCNtdPnJDsj8sAAAAASUVORK5CYII='));
 			case      'file': exit(base64_decode('iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAPklEQVQYlcXQsQ0AIAhE0b//GgzDWGdjDCJoKck13CsIALi7gJxyVmFmyrsXLHEHD7zBmBbezvoJm4cL0OwYouM4O3J+UDYAAAAASUVORK5CYII='));
+			case      'fico': exit(base64_decode('iVBORw0KGgoAAAANSUhEUgAAAAsAAAALCAYAAACprHcmAAAAN0lEQVQY02NgIBP8J1EcQwKFz0iMCTB1TGgKGbEpgskzEjARBTDhMBGrM1hwWEt0aPzHwqYxAABKpg0EqHhK1wAAAABJRU5ErkJggg=='));
 		}
 	}
 	
@@ -130,6 +131,7 @@
 <head>
 	
 	<meta charset="UTF-8">
+	<link rel="shortcut icon" href='<?php echo $_self ?>?i=fico' />
 	<meta name="robots" content="<?php echo htmlentities($robots) ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
